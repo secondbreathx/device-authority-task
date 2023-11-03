@@ -1,0 +1,13 @@
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/mapper/DeviceMapper.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/controller/DeviceController.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/DeviceApplication.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/config/SecurityConfiguration.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/payload/response/DeviceResponse.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/exception/DeviceAuthorityManagerException.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/exception/ErrorType.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/payload/request/DeviceRequest.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/repository/DeviceRepository.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/exception/GlobalExceptionHandler.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/model/Device.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/service/DeviceService.java
+/Users/hakankuzi/Desktop/device-authority-task/src/main/java/com/authority/device/exception/ErrorMessage.java

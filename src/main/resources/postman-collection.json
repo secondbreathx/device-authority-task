@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "bf01630d-c495-4e6d-9c99-8927a7449b32",
+		"name": "Device-Authority-Tasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Device List",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/device",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"device"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Device",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"accountNo\" : \"123\",\n    \"osName\" : \"test\",\n    \"platform\" : \"testPlatform\",\n    \"osVersion\" : \"testOsVersion\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/device",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"device"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Device",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/device/81e5d464-548d-4985-81bc-c72e09dee9d6",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"device",
+						"81e5d464-548d-4985-81bc-c72e09dee9d6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Device",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"accountNo\" : \"125\",\n    \"osName\" : \"testUpdate\",\n    \"platform\" : \"testPlatformUpdate\",\n    \"osVersion\" : \"testOsVersionUpdate\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/device/05f86347-44c3-49dd-ba72-85bc6047a6c1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"device",
+						"05f86347-44c3-49dd-ba72-85bc6047a6c1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "localhost:9000"
+		}
+	]
+}
